@@ -62,7 +62,7 @@ function init() {
 
 
     var img = new Image();
-    img.src = 'fd18.jpg';    
+    img.src = 'frida.jpg';    
     img.onload = function() {
         ctx.drawImage(img, 0, 0, canvasSize, canvasSize);
         img.style.display = 'none';
